@@ -6,6 +6,12 @@
             "tech_used": "Python, JSON, Jinja, Pytest, API Creation, Data Formatting",
             "purpose": "This is a simple Flask application that defines an API endpoint for receiving user posts. The /user-post endpoint accepts a JSON payload containing a username and text field, restructures the data, and returns it as a JSON response."
         },
+        {
+            "name": "Website Portfolio",
+            "url": "https://github.com/BrianSward/new-port",
+            "tech_used": "Python, JSON, HTML, Bootstrap, CSS",
+            "purpose": "This is a simple portfolio built using Flask to provide a simple interface with clean delivery of information, such as photos or statics files like photos or pdfs. This site also populates sections of the site using a json file to allow for updates without touching the HTML itself."
+        },
       {
           "name": "Mortgage Data Analysis",
           "url": "https://github.com/MORTGAGE-FINDER",
