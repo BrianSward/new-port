@@ -1,0 +1,12 @@
+<ul>
+  {% for project in projects %}
+      <li>
+          <a href="{{ project.url }}">{{ project.name }}</a>
+          <ul>
+              <li><b>Tech Used:</b> {{ project.tech_used }}</li>
+              <li><b>Purpose:</b> {{ project.purpose }}</li>
+          </ul>
+      </li>
+  {% endfor %}
+  </ul>
+  

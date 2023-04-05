@@ -1,0 +1,40 @@
+{
+  "projects": [
+        {
+            "name": "Flask User Post API",
+            "url": "https://github.com/BrianSward/example_flask",
+            "tech_used": "Python, JSON, Jinja, Pytest, API Creation, Data Formatting",
+            "purpose": "This is a simple Flask application that defines an API endpoint for receiving user posts. The /user-post endpoint accepts a JSON payload containing a username and text field, restructures the data, and returns it as a JSON response."
+        },
+      {
+          "name": "Mortgage Data Analysis",
+          "url": "https://github.com/MORTGAGE-FINDER",
+          "tech_used": "Python, Machine Learning, Jupyter/Kaggle, Django, Numpy, Pandas, MatPlotLib, Tailwind, Next.js",
+          "purpose": "Performed Logistical Regression on publicly available data to determine given categorical data if a user be approved for a loan."
+      },
+      {
+          "name": "Data Structures and Algorithms",
+          "url": "https://github.com/BrianSward/data-structures-and-algorithms./tree/main/python",
+          "tech_used": "Python, Stack, Queue, Node, Hashtable, Graphs, Binary Tree, Binary Search Trees, Linked List",
+          "purpose": "Demonstrative knowledge of fundamental data structures and common approaches such as, but not limited to: insertion sorts, merge sort, and weighted graph traversal."
+      },
+      {
+          "name": "Chess Board Checker",
+          "url": "https://github.com/BrianSward/chessboard-checker",
+          "tech_used": "Python, Jupyter/Kaggle, Numpy, Pandas, MatPlotLib",
+          "purpose": "To determine if two randomly placed chess queens can \"see\" each other, and then return a boolean response to the user along with a graphical representation for visual confirmation."
+      },
+      {
+          "name": "Housing Hunter Hero",
+          "url": "https://github.com/BrianSward/housing-hunter-hero",
+          "tech_used": "Python, BeautifulSoup, Web Scraping, JSON, HTML, Data Pipelining",
+          "purpose": "To get a quick simple list of available properties with details and URL to the listing. This was done by taking in a user supplied zipcode, scraping a well known real estate site for data, and returning that information formatted for use by the user."
+      },
+      {
+          "name": "Data Extraction Automation",
+          "url": "https://github.com/BrianSward/automation/tree/main/automotion_lab",
+          "tech_used": "Python, RegEx, Data Formatting. Pytest",
+          "purpose": "Demonstrative logic to iterate through simulated web scraped data and use regular expressions to extract the needed data."
+      }
+  ]
+}
