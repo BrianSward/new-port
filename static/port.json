@@ -39,8 +39,9 @@
       {
           "name": "Data Extraction Automation",
           "url": "https://github.com/BrianSward/automation/tree/main/automotion_lab",
-          "tech_used": "Python, RegEx, Data Formatting. Pytest",
+          "tech_used": "Python, RegEx, Data Formatting, Pytest",
           "purpose": "Demonstrative logic to iterate through simulated web scraped data and use regular expressions to extract the needed data."
       }
   ]
+
 }
