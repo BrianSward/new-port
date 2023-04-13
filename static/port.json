@@ -1,6 +1,12 @@
 {
   "projects": [
         {
+            "name": "Code Wars Practice",
+            "url": "https://github.com/BrianSward/code-wars",
+            "tech_used": "Vanilla Python",
+            "purpose": "Code Wars is designed to test your programming chops. This GitHub contains all my demonstrative skill-based work amassed since graduating Code Fellows. Problems are approached without using methods to simulate whiteboard questions and responses."
+        },
+        {
             "name": "Flask User Post API",
             "url": "https://github.com/BrianSward/example_flask",
             "tech_used": "Python, JSON, Jinja, Pytest, API Creation, Data Formatting",
