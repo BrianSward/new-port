@@ -66,10 +66,7 @@
                     </p>
                     <!-- <p class="text-muted"> -->
                     <i class="fas fa-quote-left pe-2"></i>
-                    Python developer possessing a fluidity in mathematics and a passion for how software engineering can
-                    enhance people's quality of life. Eager to leverage the ethea of continuous education, adaptability,
-                    and accountability along with advanced data analysis methodologies inside the software engineering
-                    field.
+                    {{ info[0].content[0].opener  }}
                     </p>
                 </div>
             </div>
@@ -86,18 +83,11 @@
                     <div class="card-body">
                         <div class="h4 mt-0 title">About</div>
                         <p>
-                            This site is a work in progress; so please pardon the mess. I am a recent graduate from an
-                            Advanced Python Development Bootcamp in Seattle. Additionally, I have a degree in
-                            Mathematics and a desire for my dog to live the most outstanding dog life ever.
+                            {{ info[0].content[0].about_1 }}
                         </p>
                         <br>
                         <p>
-                            I'm a technology professional with over a decade of experience in data analysis, passionate
-                            about solving real-world problems with innovative solutions. My skills include project
-                            management, team leadership, and business development, and I'm always eager to stay on top
-                            of emerging technologies. In my free time, I enjoy tabletop gaming and exploring the
-                            Pacific Northwest. I'm committed to giving back to my community and would love to connect
-                            with local non-profits.
+                            {{ info[0].content[0].about_2  }}
                         </p>
                     </div>
                 </div>
@@ -192,14 +182,14 @@
                                 <li><b>Purpose:</b> {{ project.purpose }}</li>
                             </ul>
                         </li>
-                    {% endfor %}
+                        {% endfor %}
                         
                     </ul>
                     <div class="h5">
                         Bachelors of Arts in Mathematics
                     </div>
                     <p class="category">
-                        <a href="https://en.wikipedia.org/wiki/Wesleyan_University">Wesleyan University</a> -
+                        <a href="https://en.wikipedia.org/wiki/Wesleyan_University">{{ info[0].uni[0].name  }}</a> -
                         <i>Middletown, Connecticut</i>
                     </p>
                     <p>
@@ -208,21 +198,12 @@
                         </b>
                         <br>
                     <ul>
+                        {% for course in info[0].uni[0].courses %}
                         <li>
-                            Abstract Linear Algebra
+                            {{ course }}
                         </li>
-                        <li>
-                            Graph Theory
-                        </li>
-                        <li>
-                            Complex Analysis
-                        </li>
-                        <li>
-                            Abstract Algebra
-                        </li>
-                        <li>
-                            Topology
-                        </li>
+                        {% endfor %}
+
                     </ul>
                     </p>
                     </p>
@@ -238,30 +219,25 @@
                     <b>
                         Programming Languages:
                     </b>
-                    Python, R, SQL, JavaScript, HTML, CSS, C++
+                    {{ info[0].skills[0].p_lang  }}
                     <br>
                     <br>
                     <b>
                         Tools:
                     </b>
-                    PyCharm, VS Code, Jupyter, Django REST API, Pandas, Flask, SciKitLearn, Docker, BeautifulSoup,
-                    Excel, Google Sheets, Tableau, WSL, Ubuntu, NumPy, Django, MongoDB, Matplotlib, Bootstrap,
-                    Seaborn, Chart.JS, Budget Analysis, API
-                    Engineering, Data Mining, Data Cleaning, Data Visualization, Database Management,
-                    Cross-Functional Collaboration, Technical Instruction, Agile and Waterfall Methodologies,
-                    Exploratory, Quantitative, and Qualitative Data Analysis
+                    {{ info[0].skills[0].tools  }}
                     <br>
                     <br>
                     <b>
                         Database Management:
                     </b>
-                    MySQL, postgreSQL, MongoDB, SQLite3, Pivot Tables, VLookUp
+                    {{ info[0].skills[0].data_mg  }}
                     <br>
                     <br>
                     <b>
                         Project Management:
                     </b>
-                    CSM, Lean Six Sigma, and Google Project Management Certifications
+                    {{ info[0].skills[0].pj_mg }}
 
 
                 </div>

@@ -48,6 +48,26 @@
           "tech_used": "Python, RegEx, Data Formatting, Pytest",
           "purpose": "Demonstrative logic to iterate through simulated web scraped data and use regular expressions to extract the needed data."
       }
-  ]
-
+    ],
+    "info":[
+        {
+            "uni" :[{ 
+                "name":"Wesleyan University",
+                "courses": ["Abstract Linear Algebra", "Graph Theory", "Complex Analysis", "Abstract Algebra", "Topology"]
+                }
+            ],
+            "skills":[{
+                "p_lang": "Python, R, SQL, JavaScript, HTML, CSS, C++",
+                "tools": "PyCharm, VS Code, Jupyter, Django REST API, Pandas, Flask, SciKitLearn, Docker, BeautifulSoup,Excel, Google Sheets, Tableau, WSL, Ubuntu, NumPy, Django, MongoDB, Matplotlib, Bootstrap, Seaborn, Chart.JS, Budget Analysis, API Engineering, Data Mining, Data Cleaning, Data Visualization, Database Management, Cross-Functional Collaboration, Technical Instruction, Agile and Waterfall Methodologies, Exploratory, Quantitative, and Qualitative Data Analysis",
+                "data_mg": "MySQL, postgreSQL, MongoDB, SQLite3, Pivot Tables, VLookUp",
+                "pj_mg":"CSM, Lean Six Sigma, and Google Project Management Certifications"
+            }],
+            "content":[{
+                "opener": "Python developer possessing a fluidity in mathematics and a passion for how software engineering can enhance people's quality of life. Eager to leverage the ethea of continuous education, adaptability, and accountability along with advanced data analysis methodologies inside the software engineering field.",
+                "about_1":"This site is a work in progress; so please pardon the mess. I am a recent graduate from an Advanced Python Development Bootcamp in Seattle. Additionally, I have a degree in Mathematics and a desire for my dog to live the most outstanding dog life ever.",
+                "about_2": "I'm a technology professional with over a decade of experience in data analysis, passionate about solving real-world problems with innovative solutions. My skills include project management, team leadership, and business development, and I'm always eager to stay on top of emerging technologies. In my free time, I enjoy tabletop gaming and exploring the Pacific Northwest. I'm committed to giving back to my community and would love to connect with local non-profits."
+              
+            }]
+        }
+    ]
 }
