@@ -28,7 +28,7 @@
           "name": "Mortgage Data Analysis",
           "url": "https://github.com/MORTGAGE-FINDER",
           "tech_used": "Python, Machine Learning, Jupyter/Kaggle, Django, Numpy, Pandas, MatPlotLib, Tailwind, Next.js",
-          "purpose": "Performed Logistical Regression on publicly available data to determine given categorical data if a user be approved for a loan."
+          "purpose": "Performed Logistical Regression on publicly available data to determine given categorical data if a user will be approved for a loan."
       },
       {
           "name": "Data Structures and Algorithms",
