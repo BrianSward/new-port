@@ -22,7 +22,7 @@
             "name": "Website Portfolio",
             "url": "https://github.com/BrianSward/new-port",
             "tech_used": "Python, JSON, HTML, Bootstrap, CSS",
-            "purpose": "This is a simple portfolio built using Flask to provide a simple interface with clean delivery of information, or statics files like photos or resumes. Portions of the site are auto populated via json files. This allows for simple updates to be made without touching the HTML itself."
+            "purpose": "This is a simple portfolio built using Flask to provide a simple interface with clean delivery of information, or static files like photos or resumes. Most of the site is auto populated via a JSON file. This allows for content updates to be made without touching the HTML itself allowing non-tech savvy end users' more control over their site's content without the need of a web guru."
         },
       {
           "name": "Mortgage Data Analysis",
