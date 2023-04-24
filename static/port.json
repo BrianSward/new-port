@@ -4,7 +4,13 @@
             "name": "Fake News Detector",
             "url": "https://github.com/BrianSward/colab-work/blob/main/fake_news_machine.ipynb",
             "tech_used": "Python, Jupyter/Kaggle, Machine Learning, Web Scraping, Pandas, Numpy, BeautifulSoup, JSON, Request, Spacy, Trafilatura",
-            "purpose": "This code uses numpy, pandas, and scikit-learn (sklearn) to read and preprocess a dataset of news articles to train on. The code prompts the user to input a URL and then extracts the text content from the page using BS and Traf. Finally, it outputs the predicted label (fake or real) for the extracted text using the previously trained SVM model. The tools, libraries, and skills on display in this code include data preprocessing, machine learning, web scraping, HTTP requests, and text extraction."
+            "purpose": "This code uses numpy, pandas, and scikit-learn (sklearn) to read and preprocess a dataset of news articles to train on. The code prompts the user to input a URL and then extracts the text content from the page using BS and Traf. Finally, it outputs the predicted label (fake or real) for the extracted text using the previously trained model. The tools, libraries, and skills on display in this code include data preprocessing, machine learning, web scraping, HTTP requests, and text extraction."
+        },
+        {
+            "name": "Web Text Extractor",
+            "url": "https://github.com/BrianSward/colab-work/blob/main/extractor.ipynb",
+            "tech_used": "Python, Jupyter/Kaggle, Web Scraping, BeautifulSoup, Trafilatura, JSON, textwrap",
+            "purpose": "This code defines functions to extract text from a single web page using a combination of libraries like BeautifulSoup, Trafilatura, and Requests. It takes a user input URL, extracts the text from the given URL, and wraps the text into paragraphs of 80 characters per line using the textwrap library. If there are any anomalies in the extraction process, it returns NaN."
         },
         {
             "name": "Code Wars Practice",
