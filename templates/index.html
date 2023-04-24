@@ -31,6 +31,9 @@
                 <a class="nav-link text-white" href="#about">About Me</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link text-white" href="#educational-info">Education</a>
             </li>
             <li class="nav-item">
@@ -152,6 +155,30 @@
     </div>
     <div class="section bg-dark" id="skill">
         <div class="container my-2 bg-dark mb-4">
+            <div class="h4 text-center mt-4 mb-3 title text-light" id="portfolio">
+                Portfolio
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <div class="card-body">
+                    <div class="h5">
+                        Selected Python Projects
+                    </div>
+                    <ul>
+                        {% for project in projects %}
+                        <li>
+                            <a href="{{ project.url }}">{{ project.name }}</a>
+                            <ul>
+                                <li><b>Tech Used:</b> {{ project.tech_used }}</li>
+                                <li><b>Purpose:</b> {{ project.purpose }}</li>
+                            </ul>
+                        </li>
+                        {% endfor %}
+                        
+                    </ul>
+        </div>
+    </div>
+    <div class="section bg-dark" id="skill">
+        <div class="container my-2 bg-dark mb-4">
             <div class="h4 text-center mt-4 mb-3 title text-light" id="educational-info">
                 Education
             </div>
@@ -168,23 +195,7 @@
                     <p>
                         Completion of over 1,000 hours of combined lecture, projects, and lab time.
                     </p>
-                    <p class="h5">
-                       
-                            Selected Python Projects:
-                        
-                        <br>
-                    <ul>
-                        {% for project in projects %}
-                        <li>
-                            <a href="{{ project.url }}">{{ project.name }}</a>
-                            <ul>
-                                <li><b>Tech Used:</b> {{ project.tech_used }}</li>
-                                <li><b>Purpose:</b> {{ project.purpose }}</li>
-                            </ul>
-                        </li>
-                        {% endfor %}
-                        
-                    </ul>
+
                     <div class="h5">
                         Bachelors of Arts in Mathematics
                     </div>
