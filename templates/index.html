@@ -104,7 +104,7 @@
                                 </strong>
                             </div>
                             <div class="col-sm-8">
-                                b s w a r d (A T) g m a i l (D O T) c o m
+                                {{ info[0].links[0].email }}
                             </div>
                         </div>
                         <div class="row mt-3">
@@ -114,7 +114,7 @@
                                 </strong>
                             </div>
                             <div class="col-sm-8">
-                                <a href="https://www.linkedin.com/in/brian-sward/">Visit My LinkedIn Page</a>
+                                <a href={{ info[0].links[0].linkedin_url }}>Visit My LinkedIn Page</a>
                             </div>
                         </div>
                         <div class="row mt-3">
@@ -124,7 +124,7 @@
                                 </strong>
                             </div>
                             <div class="col-sm-8">
-                                <a href="https://www.github.com/briansward/">Visit My GitHub Page</a>
+                                <a href={{ info[0].links[0].github_url }}>Visit My GitHub Page</a>
                             </div>
                         </div>
                         <div class="row mt-3">
@@ -134,7 +134,7 @@
                                 </strong>
                             </div>
                             <div class="col-sm-8">
-                                <a href="https://www.codewars.com/users/BSward/completed">Visit My CodeWars Page</a>
+                                <a href={{ info[0].links[0].codewars_url }}>Visit My CodeWars Page</a>
                             </div>
                         </div>
                         <div class="row mt-3">
@@ -200,8 +200,8 @@
                         Bachelors of Arts in Mathematics
                     </div>
                     <p class="category">
-                        <a href="https://en.wikipedia.org/wiki/Wesleyan_University">{{ info[0].uni[0].name  }}</a> -
-                        <i>Middletown, Connecticut</i>
+                        <a href={{ info[0].uni[0].url }}>{{ info[0].uni[0].name  }}</a> -
+                        <i>{{ info[0].uni[0].location }}</i>
                     </p>
                     <p>
                         <b>

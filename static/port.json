@@ -65,7 +65,16 @@
         {
             "uni" :[{ 
                 "name":"Wesleyan University",
+                "location": "Middletown, Connecticut",
+                "url": "https://en.wikipedia.org/wiki/Wesleyan_University",
                 "courses": ["Abstract Linear Algebra", "Graph Theory", "Complex Analysis", "Abstract Algebra", "Topology"]
+                }
+            ],
+             "links" :[{ 
+                "email":"b s w a r d (A T) g m a i l (D O T) c o m",
+                "linkedin_url": "https://www.linkedin.com/in/brian-sward/",
+                "github_url": "https://github.com/BrianSward",
+                "codewars_url": "https://www.codewars.com/users/BSward/completed"           
                 }
             ],
             "skills":[{
